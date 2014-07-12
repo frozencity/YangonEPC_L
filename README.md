@@ -1,15 +1,18 @@
 #  YGN EPC NUMBERS
 This is a collection of EPC phone numbers that you can call if you need anything about Electricity in Yangon. 
+
 For example, when a blackout happens at your place and you might wonder what happened and when it'll be back. Just choose a township you live in. And press the number. 
 
 # For Developers
 Tested Material Theme and CardView. Turns out, it's not backward compatible yet. 
 
 This app uses Spinners, CardView, and Material Theme.
+
 Phone numbers are from Myanmars.net
 
 #Screenshots
 ![alt tag](https://github.com/frozencity/YangonEPC_L/raw/master/screenshot1.png)
+
 ![alt tag](https://github.com/frozencity/YangonEPC_L/raw/master/screenshot2.png)
 
 #Contributing
