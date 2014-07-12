@@ -20,7 +20,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 
-public class MainActivity extends Activity  {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +56,7 @@ public class MainActivity extends Activity  {
     /**
      * A placeholder fragment containing a simple view.
      */
-    public static class PlaceholderFragment extends Fragment{
+    public static class PlaceholderFragment extends Fragment {
 
         public PlaceholderFragment() {
         }
@@ -69,7 +69,7 @@ public class MainActivity extends Activity  {
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
+                                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_selection, container, false);
 
             btn_one = (Button) rootView.findViewById(R.id.btn_num_one);
@@ -91,21 +91,21 @@ public class MainActivity extends Activity  {
 
             btn_one.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
-                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:"+btn_one.getText().toString()));
+                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + btn_one.getText().toString()));
                     startActivity(intent);
                 }
             });
 
             btn_two.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
-                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:"+btn_two.getText().toString()));
+                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + btn_two.getText().toString()));
                     startActivity(intent);
                 }
             });
 
             btn_three.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
-                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:"+btn_three.getText().toString()));
+                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + btn_three.getText().toString()));
                     startActivity(intent);
                 }
             });
@@ -115,7 +115,7 @@ public class MainActivity extends Activity  {
         }
 
 
-        public void setOnItemSelect(){
+        public void setOnItemSelect() {
             spinner.setOnItemSelectedListener(new OnItemSelectedListener() {
 
                 public void onItemSelected(AdapterView<?> parent, View view,
@@ -125,7 +125,7 @@ public class MainActivity extends Activity  {
                     tv.setText(parent.getItemAtPosition(pos).toString());
 
                     //Text from Buttons will change according to the item selected.
-                    switch (pos){
+                    switch (pos) {
                         case 0:
                             btn_one.setText(R.string.m1_Ahlon_Sanchaung1);
                             btn_two.setText(R.string.m1_Ahlon_Sanchaung2);
