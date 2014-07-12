@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Wooop!! Just found out that Material Theme is not backward compatible yet. -->
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <!-- Main theme colors -->
+        <!--   your app's branding color (for the app bar) -->
+        <item name="android:colorPrimary">@android:color/white</item>
+        <!--   darker variant of colorPrimary (for status bar, contextual app bars) -->
+        <item name="android:colorPrimaryDark">@android:color/black</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+      <!--  <item name="android:colorAccent">@color/accent</item> -->
+
+    </style>
+
+
+
+</resources>

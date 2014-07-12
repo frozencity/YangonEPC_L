@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TextView
+                android:id="@+id/info_text"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Testing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_margin="20dp"
+                android:layout_below="@+id/info_text"
+                android:id="@+id/btn_num_one"
+                android:text="Sample Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+
+            <Button
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/btn_num_one"
+                android:id="@+id/btn_num_tsu"
+                android:text="Sample Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/btn_num_tsu"
+                android:id="@+id/btn_num_sree"
+                android:text="Sample Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+</RelativeLayout>

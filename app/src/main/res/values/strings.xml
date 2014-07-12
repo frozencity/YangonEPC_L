@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yangon EPC Numbers</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_about">About</string>
+
+    <string name="select_township"><b><u>Select Township</u></b></string>
+
+    <string-array name="Townships">
+        <item>Ahlon / Sanchaung</item>
+        <item>Bahan / Dagon</item>
+        <item>Botahtaung</item>
+        <item>Dagon Myothit (North)</item>
+        <item>Dagon Myothit (South)</item>
+        <item>Dala</item>
+        <item>Hlaing</item>
+        <item>Hlaing Thayar</item>
+        <item>Hlegu</item>
+        <item>Hmawbi</item>
+        <item>Htauntkyant</item>
+        <item>Insein / Mingalardon</item>
+        <item>Kamayut / Kyeemyindaing</item>
+        <item>Kungyankone</item>
+        <item>Kyauktada / Pabedan</item>
+        <item>Kyauktan</item>
+
+        <item>Lanmadaw / Latha</item>
+        <item>Lat-khok-kone</item>
+        <item>Mayangone</item>
+        <item>Mingala Taung Nyunt</item>
+        <item>North Okkalapa</item>
+        <item>Pazundaung</item>
+        <item>Shwe-pauk-kan</item>
+        <item>Shwe Pyi Thar</item>
+        <item>South Okkalapa</item>
+        <item>Tamwe</item>
+        <item>Thaketa / Dawbon</item>
+        <item>Thingan Kyun</item>
+        <item>Yankin</item>
+    </string-array>
+
+    <string name="m1_Ahlon_Sanchaung1">01 220980</string>
+    <string name="m1_Ahlon_Sanchaung2">01 212512</string>
+
+    <string name="m2_Bahan_Dagon1">01 558317</string>
+    <string name="m2_Bahan_Dagon2">01 544589</string>
+
+    <string name="m3_Botahtaung">01 291779</string>
+
+    <string name="m4_Dagon_Myothit_North1">01 584080</string>
+    <string name="m4_Dagon_Myothit_North2">01 584112</string>
+
+    <string name="m5_Dagon_Myothit_South1">01 590180</string>
+    <string name="m5_Dagon_Myothit_South2">01 590209</string>
+
+    <string name="m6_Dala">01 296191</string>
+
+    <string name="m7_Hlaing">01 513581</string>
+
+    <string name="m8_Hlaing_Thayar1">01 684735</string>
+    <string name="m8_Hlaing_Thayar2">01 685324</string>
+    <string name="m8_Hlaing_Thayar3">01 244107</string>
+
+    <string name="m9_Hlegu">01 629010</string>
+
+    <string name="m10_Hmawbi">01 620037</string>
+
+    <string name="m11_Htauntkyant">01 600030</string>
+
+    <string name="m12_Insein_Mingalardon1">01 640217</string>
+    <string name="m12_Insein_Mingalardon2">01 640347</string>
+
+    <string name="m13_Kamayut_Kyeemyindaing">01 513584</string>
+
+    <string name="m14_Kungyankone">01 247540</string>
+
+    <string name="m15_Kyauktada_Pabedan">01 252368</string>
+
+    <string name="m16_Kyauktan1">(056) 25501</string>
+    <string name="m16_Kyauktan2">(056) 25505</string>
+
+    <string name="m17_Lanmadaw_Latha1">01 222466</string>
+    <string name="m17_Lanmadaw_Latha2">01 225708</string>
+
+    <string name="m18_Lat_khok_kone">01 247538</string>
+
+    <string name="m19_Mayangone1">01 665011</string>
+    <string name="m19_Mayangone2">01 665012</string>
+
+    <string name="m20_Mingala_Taung_Nyunt">01 381876</string>
+
+    <string name="m21_North_Okkalapa1">01 699359</string>
+    <string name="m21_North_Okkalapa2">01 699473</string>
+
+    <string name="m22_Pazundaung">01 292575</string>
+    
+    <string name="m23_Shwe_pauk_kan">01 695515</string>
+    
+    <string name="m24_Shwe_Pyi_Thar">01 635124</string>
+
+    <string name="m25_South_Okkalapa1">01 578416</string>
+    <string name="m25_South_Okkalapa2">01 578420</string>
+
+    <string name="m26_Tamwe1">01 544590</string>
+    <string name="m26_Tamwe2">01 544585</string>
+
+    <string name="m27_Thaketa_Dawbon1">01 547034</string>
+    <string name="m27_Thaketa_Dawbon2">01 710093</string>
+
+    <string name="m28_Thingan_Kyun">01 560738</string>
+
+    <string name="m29_Yankin">01 560910</string>
+
+
+
+</resources>
