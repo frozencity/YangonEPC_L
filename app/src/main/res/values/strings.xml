@@ -7,6 +7,17 @@
 
     <string name="select_township"><b><u>Select Township</u></b></string>
 
+    <string name="okay">OKAY</string>
+
+
+    <string name="about_message"><![CDATA[<p>This is a collection of EPC phone numbers
+        that you can call if you need anything about Electricity in Yangon.
+        </p><p>When a blackout happens at your place and you might wonder what happened
+        and when it will be back. Just choose a township you live in.
+        And press the number. </p><p>This app is completely OpenSource
+        and licensed under Apache v2.0</p>
+        <p>Source code available at <a href="https://github.com/frozencity/YangonEPC_L">GitHub</a></p>]]></string>
+
     <string-array name="Townships">
         <item>Ahlon / Sanchaung</item>
         <item>Bahan / Dagon</item>
